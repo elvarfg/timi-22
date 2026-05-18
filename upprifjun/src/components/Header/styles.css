@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  padding: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(119, 149, 168);
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  border: black 2px solid;
+  border-radius: 16px;
+  padding: 2px 12px;
+  &:hover {
+    color: rgb(18, 34, 34);
+    border-color: rgb(93, 170, 170);
+  }
+}
